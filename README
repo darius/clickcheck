@@ -1,0 +1,20 @@
+Clickcheck -- QuickCheck for Common Lisp, more or less
+
+Version:   0.3
+Home page: http://accesscom.com/~darius/software/clickcheck.html
+Author:    Darius Bacon <darius@accesscom.com>
+License:   http://www.opensource.org/licenses/mit-license.html
+
+To get started, start up your Lisp system inside this directory, and
+enter (load "loadme.lisp").  You should see output from self-tests and
+sample tests.  One of the sample suites, money.lisp, has deliberate
+test failures; the others should all pass.
+
+Manifest:
+
+  clickcheck.lisp	The main testing package.
+  documentation.text    Quick-start guide and reference.
+
+  updoc.lisp		Experimental documentation- and regression-tester.
+  alpha.lisp		Utility for testing macros, also experimental.
+  other files		Sample tests.

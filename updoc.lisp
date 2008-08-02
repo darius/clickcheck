@@ -52,10 +52,10 @@
   (let ((c (read-char stream nil nil)))
     (cond ((not c) '())
           ((and (char= c #\#)
-		(char= (peek-char t stream nil nil) #\{))
-	   (read-char stream)
-	   (cons (updoc-stream stream)
-		 (parse-doc-stream stream)))
+                (char= (peek-char t stream nil nil) #\{))
+           (read-char stream)
+           (cons (updoc-stream stream)
+                 (parse-doc-stream stream)))
           (t (parse-doc-stream stream)))))
 
 

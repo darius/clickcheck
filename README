@@ -12,9 +12,12 @@ test failures; the others should all pass.
 
 Manifest:
 
-  clickcheck.lisp	The main testing package.
+  clickcheck.lisp       The main testing package.
   documentation.text    Quick-start guide and reference.
 
-  updoc.lisp		Experimental documentation- and regression-tester.
-  alpha.lisp		Utility for testing macros, also experimental.
-  other files		Sample tests.
+  click-check.asd       ASDF system definition.
+  updoc.lisp            Experimental documentation- and regression-tester.
+  alpha.lisp            Utility for testing macros, also experimental.
+  other files           Sample tests.
+
+Thanks to Gregory Martin Pfeil for click-check.asd.
